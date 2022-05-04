@@ -6,7 +6,6 @@
 //
 
 #include "matiere.hpp"
-#include "iostream"
 using namespace std;
 
 matiere::matiere(string saisie_nom,float saisie_coef,float saisie_note){

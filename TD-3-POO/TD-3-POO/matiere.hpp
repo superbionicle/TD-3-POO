@@ -18,6 +18,8 @@ class matiere{
 public:
     matiere(string saisie_nom,float saisie_coef,float saisie_note=0);
     float get_note(){return(note);};
+    string get_nom(){return(nom);};
+    float get_coef(){return(coef);};
     void set_note(float saisie_note){note=saisie_note;};
     void afficher_note(){cout<<"Note de "<<nom<<" : "<<note<<endl;};
 };
